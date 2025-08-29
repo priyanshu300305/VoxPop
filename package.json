@@ -53,6 +53,10 @@
     },
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "next build",
+        "start": "your-start-command"
+    },
+    "engines": {
+        "node": ">=18.x"
     }
 }

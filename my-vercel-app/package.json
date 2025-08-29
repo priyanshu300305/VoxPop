@@ -1,0 +1,22 @@
+{
+  "name": "my-vercel-app",
+  "version": "1.0.0",
+  "description": "A Vercel deployable application with TypeScript",
+  "main": "src/app.ts",
+  "scripts": {
+    "dev": "ts-node src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "dependencies": {
+    "typescript": "^4.5.4",
+    "ts-node": "^10.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7"
+  },
+  "engines": {
+    "node": ">=14.x"
+  },
+  "license": "MIT"
+}
